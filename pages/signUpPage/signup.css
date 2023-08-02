@@ -1,0 +1,85 @@
+body{
+    background-image: url("/pages/loginPage/image/bg1.png");
+}
+.container1{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    background-image: url("/pages/loginPage/image/bg1.png");
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    box-shadow: 8px 8px 8px rgb(37, 23, 23);
+
+}
+.submit{
+    cursor: pointer;
+    border: 2px solid rgb(239, 239, 156);
+    border-radius: 4px;
+    background-color: rgb(11, 10, 10);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+
+    
+}
+.form{
+  text-align: center;
+    color: rgb(252, 249, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(244, 8, 209, 0.632), 0 0 5px rgba(252, 50, 232, 0.715);
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.submit:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+}
+input{
+ display: flow-root;
+}
+input:focus{
+    background-color: rgb(246, 237, 224);
+}
+input:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.nav-item{
+    cursor: pointer;
+  }
+  .nav-item img{
+    height: 75px;
+    position: absolute;
+    left: 94%;
+    top: -5px;
+    
+  
+  }
+  .navbar-brand{
+    text-shadow:3px 3px 5px pink;
+    border: 1px solid white;
+    border-radius: 23px;
+    width: 38px;
+    text-align: center;
+  }
+  .nav-item button{
+    position:relative;
+    display: inline-block;
+    left: 530px;
+    margin-inline: 5px;
+    
+  }
+  
+  h1{
+    padding-left: 3px;
+    width: 50px;
+    justify-self: center;
+    border-radius: 28px;
+    background-color: rgb(160, 116, 106);
+  }

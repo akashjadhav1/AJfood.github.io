@@ -1,0 +1,175 @@
+
+
+
+.nav-item{
+    cursor: pointer;
+  }
+  
+  
+  .nav-item button{
+    position:relative;
+    display: inline-block;
+    left: 530px;
+    margin-inline: 5px;
+    
+  }
+  .main-head{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: rgb(254, 253, 253);
+    font-weight: bolder;
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .hcaption{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+  }
+  .head button{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+  }
+
+  .head img{
+    border-radius:5px;
+  }
+
+  .head button:hover{
+    background: none;
+    border: 2px solid rgb(253, 250, 250);
+    color: rgb(249, 252, 249);
+    font-size: large;
+  }
+  .card-body,.card img{
+    box-shadow: 6px 0px 14px rgb(156, 143, 143);
+    border-bottom-left-radius: 5px;
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .card{
+    margin: 10px;
+    
+  }
+  .heading{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline rgb(253, 249, 249);
+  }
+  span{
+    margin-inline-start: 126px;
+  }
+  
+  
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0a0a;
+  }
+  
+
+  #about p{
+    color: white;
+  }
+
+  
+
+
+  /* form css */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container2 {
+    max-width: 800px;
+    margin:0 auto;
+    padding: 20px;
+    background-color:rgb(241, 241, 234);
+  }
+  h1 {
+    text-align: center;
+    color: #fcf8f8;
+  }
+  
+  
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #333331;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #201c1c;
+    color: #f8f4f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+
+  @media screen and (max-device-width: 667px){
+    body{
+        height: auto;
+        width: auto;
+        }
+    .main-head{
+      font-size:40px;
+      display: flex;
+      top: 70px;
+      left: 10px;
+    }
+    .hcaption{
+      position:absolute;
+      top: 160px;
+      font-style:none;
+      font-size: medium;
+      left: 40px;
+      
+    }
+    .card-body,.card img{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .col-4{
+      display: contents;
+      
+    }
+    
+} 
+
+  
